@@ -11,10 +11,10 @@ public class Calculator {
     public Calculator() {
         // Create and configure the GUI components (Setting Labels + textField size)
         label1 = new JLabel("Enter number 1: ");
-        textField1 = new JTextField(5);
+        textField1 = new JTextField(4);
 
         label2 = new JLabel("Enter number 2: ");
-        textField2 = new JTextField(5);
+        textField2 = new JTextField(4);
 
         addButton = new JButton("Add");
         subButton = new JButton("Subtract");
@@ -36,7 +36,7 @@ public class Calculator {
 
         // Create and configure the frame 
         frame = new JFrame("Simple Calculator");
-        frame.setSize(250, 200);
+        frame.setSize(250, 201);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // add the panel to the center of the frame
         frame.add(panel, BorderLayout.CENTER); 
